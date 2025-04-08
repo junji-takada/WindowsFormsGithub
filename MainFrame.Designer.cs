@@ -125,18 +125,21 @@ namespace WindowsFormsGithub
             this.開くToolStripMenuItem.Name = "開くToolStripMenuItem";
             this.開くToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.開くToolStripMenuItem.Text = "開く";
+            this.開くToolStripMenuItem.Click += new System.EventHandler(this.開くToolStripMenuItem_Click);
             // 
             // 保存ToolStripMenuItem
             // 
             this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
             this.保存ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.保存ToolStripMenuItem.Text = "保存";
+            this.保存ToolStripMenuItem.Click += new System.EventHandler(this.保存ToolStripMenuItem_Click);
             // 
             // 印刷ToolStripMenuItem
             // 
             this.印刷ToolStripMenuItem.Name = "印刷ToolStripMenuItem";
             this.印刷ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.印刷ToolStripMenuItem.Text = "印刷";
+            this.印刷ToolStripMenuItem.Click += new System.EventHandler(this.印刷ToolStripMenuItem_Click);
             // 
             // 印刷設定ToolStripMenuItem
             // 
@@ -149,18 +152,21 @@ namespace WindowsFormsGithub
             this.フォントToolStripMenuItem.Name = "フォントToolStripMenuItem";
             this.フォントToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.フォントToolStripMenuItem.Text = "フォント";
+            this.フォントToolStripMenuItem.Click += new System.EventHandler(this.フォントToolStripMenuItem_Click);
             // 
             // カラーToolStripMenuItem
             // 
             this.カラーToolStripMenuItem.Name = "カラーToolStripMenuItem";
             this.カラーToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.カラーToolStripMenuItem.Text = "カラー";
+            this.カラーToolStripMenuItem.Click += new System.EventHandler(this.カラーToolStripMenuItem_Click);
             // 
             // 終了ToolStripMenuItem
             // 
             this.終了ToolStripMenuItem.Name = "終了ToolStripMenuItem";
             this.終了ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.終了ToolStripMenuItem.Text = "終了";
+            this.終了ToolStripMenuItem.Click += new System.EventHandler(this.終了ToolStripMenuItem_Click);
             // 
             // 編集ToolStripMenuItem
             // 
@@ -181,24 +187,28 @@ namespace WindowsFormsGithub
             this.元に戻すToolStripMenuItem.Name = "元に戻すToolStripMenuItem";
             this.元に戻すToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.元に戻すToolStripMenuItem.Text = "元に戻す";
+            this.元に戻すToolStripMenuItem.Click += new System.EventHandler(this.元に戻すToolStripMenuItem_Click);
             // 
             // 切り取りToolStripMenuItem
             // 
             this.切り取りToolStripMenuItem.Name = "切り取りToolStripMenuItem";
             this.切り取りToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.切り取りToolStripMenuItem.Text = "切り取り";
+            this.切り取りToolStripMenuItem.Click += new System.EventHandler(this.切り取りToolStripMenuItem_Click);
             // 
             // 複製ToolStripMenuItem
             // 
             this.複製ToolStripMenuItem.Name = "複製ToolStripMenuItem";
             this.複製ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.複製ToolStripMenuItem.Text = "複製";
+            this.複製ToolStripMenuItem.Click += new System.EventHandler(this.複製ToolStripMenuItem_Click);
             // 
             // 貼り付けToolStripMenuItem
             // 
             this.貼り付けToolStripMenuItem.Name = "貼り付けToolStripMenuItem";
             this.貼り付けToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.貼り付けToolStripMenuItem.Text = "貼り付け";
+            this.貼り付けToolStripMenuItem.Click += new System.EventHandler(this.貼り付けToolStripMenuItem_Click);
             // 
             // 検索ToolStripMenuItem
             // 
@@ -233,6 +243,7 @@ namespace WindowsFormsGithub
             this.メッセージ01ToolStripMenuItem.Name = "メッセージ01ToolStripMenuItem";
             this.メッセージ01ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.メッセージ01ToolStripMenuItem.Text = "メッセージ01";
+            this.メッセージ01ToolStripMenuItem.Click += new System.EventHandler(this.メッセージ01ToolStripMenuItem_Click);
             // 
             // メッセージ02ToolStripMenuItem
             // 
@@ -245,6 +256,7 @@ namespace WindowsFormsGithub
             this.ダイアログ01ToolStripMenuItem.Name = "ダイアログ01ToolStripMenuItem";
             this.ダイアログ01ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ダイアログ01ToolStripMenuItem.Text = "ダイアログ01";
+            this.ダイアログ01ToolStripMenuItem.Click += new System.EventHandler(this.ダイアログ01ToolStripMenuItem_Click);
             // 
             // ダイアログ02ToolStripMenuItem
             // 

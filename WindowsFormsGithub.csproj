@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dialogbox01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogbox01.Designer.cs">
+      <DependentUpon>Dialogbox01.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainFrame.cs">
       <SubType>Form</SubType>
     </Compile>
