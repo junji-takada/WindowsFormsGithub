@@ -135,5 +135,47 @@ namespace WindowsFormsGithub
             dialog.ShowDialog();
 
         }
+
+        private void 動画ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //example1
+            //Form dialog = new WindowsMediaPlayer();
+            //dialog.Text = "WindowsMediaPlayer";
+            //dialog.ShowDialog();
+            //example2
+            //Form dialog = new MediaPlayerControl();
+            //dialog.Text = "WindowsMediaPlayer";
+            //dialog.ShowDialog();
+
+        }
+
+        private void 動画ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            //Form dialog = new DirectShow();
+            //dialog.Text = "WindowsMediaPlayer";
+            //dialog.ShowDialog();
+
+        }
+
+        private void sqlserverCommandToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form dialog = new SqlCommand();
+            dialog.Text = "SqlCommand";
+            dialog.ShowDialog();
+
+        }
+
+        private void sqlserverEntityfToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form dialog = new SqlEntityf();
+            dialog.Text = "SqlEntityf";
+            dialog.ShowDialog();
+
+        }
+
+        private void MainFrame_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

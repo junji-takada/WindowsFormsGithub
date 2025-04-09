@@ -60,6 +60,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlCommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SqlCommand.Designer.cs">
+      <DependentUpon>SqlCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlEntityf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SqlEntityf.Designer.cs">
+      <DependentUpon>SqlEntityf.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainFrame.resx">
       <DependentUpon>MainFrame.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +84,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SqlCommand.resx">
+      <DependentUpon>SqlCommand.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
