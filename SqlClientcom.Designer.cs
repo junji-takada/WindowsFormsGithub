@@ -37,7 +37,7 @@ namespace WindowsFormsGithub
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSelect = new System.Windows.Forms.Button();
             this.btnDisconnect = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtConsole = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnAll
@@ -48,6 +48,7 @@ namespace WindowsFormsGithub
             this.btnAll.TabIndex = 0;
             this.btnAll.Text = "All";
             this.btnAll.UseVisualStyleBackColor = true;
+            this.btnAll.Click += new System.EventHandler(this.btnAll_Click);
             // 
             // btnConnect
             // 
@@ -112,19 +113,19 @@ namespace WindowsFormsGithub
             this.btnDisconnect.Text = "Disconnect";
             this.btnDisconnect.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtConsole
             // 
-            this.textBox1.Location = new System.Drawing.Point(314, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(149, 19);
-            this.textBox1.TabIndex = 8;
+            this.txtConsole.Location = new System.Drawing.Point(314, 19);
+            this.txtConsole.Name = "txtConsole";
+            this.txtConsole.Size = new System.Drawing.Size(149, 19);
+            this.txtConsole.TabIndex = 8;
             // 
             // SqlClientcom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtConsole);
             this.Controls.Add(this.btnDisconnect);
             this.Controls.Add(this.btnSelect);
             this.Controls.Add(this.btnDelete);
@@ -150,6 +151,6 @@ namespace WindowsFormsGithub
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSelect;
         private System.Windows.Forms.Button btnDisconnect;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtConsole;
     }
 }

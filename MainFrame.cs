@@ -45,8 +45,8 @@ namespace WindowsFormsGithub
             // PrintDocumentコンポーネントの生成
             //      　　  PrintDocument printDocument1 = new System.Drawing.Printing.PrintDocument();           // display show dialog and if user selects "Ok" document is printed
             if (printDialog1.ShowDialog() == DialogResult.OK)
-                ;
-//                printDocument1.Print();
+                MessageBox.Show("print");
+            //                printDocument1.Print();
         }
 
         private void フォントToolStripMenuItem_Click(object sender, EventArgs e)
