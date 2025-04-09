@@ -60,11 +60,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlCommand.cs">
+    <Compile Include="SqlClientcom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SqlCommand.Designer.cs">
-      <DependentUpon>SqlCommand.cs</DependentUpon>
+    <Compile Include="SqlClientcom.Designer.cs">
+      <DependentUpon>SqlClientcom.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlEntityf.cs">
       <SubType>Form</SubType>
@@ -84,8 +84,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SqlCommand.resx">
-      <DependentUpon>SqlCommand.cs</DependentUpon>
+    <EmbeddedResource Include="SqlClientcom.resx">
+      <DependentUpon>SqlClientcom.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

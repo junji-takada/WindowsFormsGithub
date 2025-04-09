@@ -159,7 +159,12 @@ namespace WindowsFormsGithub
 
         private void sqlserverCommandToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form dialog = new SqlCommand();
+            //クラス名が同じなのは駄目
+//            Form dialog = new SqlCommand();
+//            dialog.Text = "SqlCommand";
+//            dialog.ShowDialog();
+            //名称変更
+            Form dialog = new SqlClientcom();
             dialog.Text = "SqlCommand";
             dialog.ShowDialog();
 
