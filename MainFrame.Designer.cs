@@ -58,6 +58,12 @@ namespace WindowsFormsGithub
             this.ダイアログ04ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ダイアログ05ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ダイアログ06ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.データToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.structclassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.datasetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bindToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.linqToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.entityframeworkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.画像ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.静止画ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.動画ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,12 +88,18 @@ namespace WindowsFormsGithub
             this.カスケードToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ヘルプToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainFrameについてToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.データToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.structclassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.datasetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bindToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.linqToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.entityframeworkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.cANToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.sMTPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pOPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iMAPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.objectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.datasetToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.sqlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.entitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.gitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -262,62 +274,110 @@ namespace WindowsFormsGithub
             // メッセージ01ToolStripMenuItem
             // 
             this.メッセージ01ToolStripMenuItem.Name = "メッセージ01ToolStripMenuItem";
-            this.メッセージ01ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.メッセージ01ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.メッセージ01ToolStripMenuItem.Text = "メッセージ01";
             this.メッセージ01ToolStripMenuItem.Click += new System.EventHandler(this.メッセージ01ToolStripMenuItem_Click);
             // 
             // メッセージ02ToolStripMenuItem
             // 
             this.メッセージ02ToolStripMenuItem.Name = "メッセージ02ToolStripMenuItem";
-            this.メッセージ02ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.メッセージ02ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.メッセージ02ToolStripMenuItem.Text = "メッセージ02";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(130, 6);
             // 
             // ダイアログ01ToolStripMenuItem
             // 
             this.ダイアログ01ToolStripMenuItem.Name = "ダイアログ01ToolStripMenuItem";
-            this.ダイアログ01ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログ01ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.ダイアログ01ToolStripMenuItem.Text = "ダイアログ01";
             this.ダイアログ01ToolStripMenuItem.Click += new System.EventHandler(this.ダイアログ01ToolStripMenuItem_Click);
             // 
             // ダイアログ02ToolStripMenuItem
             // 
             this.ダイアログ02ToolStripMenuItem.Name = "ダイアログ02ToolStripMenuItem";
-            this.ダイアログ02ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログ02ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.ダイアログ02ToolStripMenuItem.Text = "ダイアログ02";
             // 
             // ダイアログ03ToolStripMenuItem
             // 
             this.ダイアログ03ToolStripMenuItem.Name = "ダイアログ03ToolStripMenuItem";
-            this.ダイアログ03ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログ03ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.ダイアログ03ToolStripMenuItem.Text = "ダイアログ03";
             // 
             // ダイアログ04ToolStripMenuItem
             // 
             this.ダイアログ04ToolStripMenuItem.Name = "ダイアログ04ToolStripMenuItem";
-            this.ダイアログ04ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログ04ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.ダイアログ04ToolStripMenuItem.Text = "ダイアログ04";
             // 
             // ダイアログ05ToolStripMenuItem
             // 
             this.ダイアログ05ToolStripMenuItem.Name = "ダイアログ05ToolStripMenuItem";
-            this.ダイアログ05ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログ05ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.ダイアログ05ToolStripMenuItem.Text = "ダイアログ05";
             // 
             // ダイアログ06ToolStripMenuItem
             // 
             this.ダイアログ06ToolStripMenuItem.Name = "ダイアログ06ToolStripMenuItem";
-            this.ダイアログ06ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログ06ToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.ダイアログ06ToolStripMenuItem.Text = "ダイアログ06";
+            // 
+            // データToolStripMenuItem
+            // 
+            this.データToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.structclassToolStripMenuItem,
+            this.datasetToolStripMenuItem,
+            this.bindToolStripMenuItem,
+            this.linqToolStripMenuItem,
+            this.entityframeworkToolStripMenuItem});
+            this.データToolStripMenuItem.Name = "データToolStripMenuItem";
+            this.データToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.データToolStripMenuItem.Text = "データ";
+            // 
+            // structclassToolStripMenuItem
+            // 
+            this.structclassToolStripMenuItem.Name = "structclassToolStripMenuItem";
+            this.structclassToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.structclassToolStripMenuItem.Text = "struct-class";
+            // 
+            // datasetToolStripMenuItem
+            // 
+            this.datasetToolStripMenuItem.Name = "datasetToolStripMenuItem";
+            this.datasetToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.datasetToolStripMenuItem.Text = "DataSet";
+            // 
+            // bindToolStripMenuItem
+            // 
+            this.bindToolStripMenuItem.Name = "bindToolStripMenuItem";
+            this.bindToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.bindToolStripMenuItem.Text = "DataBinding";
+            // 
+            // linqToolStripMenuItem
+            // 
+            this.linqToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.objectToolStripMenuItem,
+            this.datasetToolStripMenuItem1,
+            this.sqlToolStripMenuItem,
+            this.entitiesToolStripMenuItem});
+            this.linqToolStripMenuItem.Name = "linqToolStripMenuItem";
+            this.linqToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.linqToolStripMenuItem.Text = "Linq to";
+            // 
+            // entityframeworkToolStripMenuItem
+            // 
+            this.entityframeworkToolStripMenuItem.Name = "entityframeworkToolStripMenuItem";
+            this.entityframeworkToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.entityframeworkToolStripMenuItem.Text = "EntityFramework";
             // 
             // 画像ToolStripMenuItem
             // 
             this.画像ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.静止画ToolStripMenuItem,
+            this.toolStripSeparator8,
             this.動画ToolStripMenuItem,
             this.動画ToolStripMenuItem1});
             this.画像ToolStripMenuItem.Name = "画像ToolStripMenuItem";
@@ -401,12 +461,19 @@ namespace WindowsFormsGithub
             this.i2CToolStripMenuItem,
             this.sPIToolStripMenuItem,
             this.toolStripSeparator1,
+            this.cANToolStripMenuItem,
+            this.toolStripSeparator6,
             this.hTTPToolStripMenuItem,
             this.fTPToolStripMenuItem,
-            this.socketToolStripMenuItem});
+            this.socketToolStripMenuItem,
+            this.toolStripSeparator7,
+            this.sMTPToolStripMenuItem,
+            this.pOPToolStripMenuItem,
+            this.iMAPToolStripMenuItem});
             this.通信ToolStripMenuItem.Name = "通信ToolStripMenuItem";
             this.通信ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.通信ToolStripMenuItem.Text = "通信";
+            this.通信ToolStripMenuItem.Click += new System.EventHandler(this.通信ToolStripMenuItem_Click);
             // 
             // uARTToolStripMenuItem
             // 
@@ -473,7 +540,8 @@ namespace WindowsFormsGithub
             // ヘルプToolStripMenuItem
             // 
             this.ヘルプToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mainFrameについてToolStripMenuItem});
+            this.mainFrameについてToolStripMenuItem,
+            this.gitToolStripMenuItem});
             this.ヘルプToolStripMenuItem.Name = "ヘルプToolStripMenuItem";
             this.ヘルプToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.ヘルプToolStripMenuItem.Text = "ヘルプ";
@@ -481,50 +549,77 @@ namespace WindowsFormsGithub
             // mainFrameについてToolStripMenuItem
             // 
             this.mainFrameについてToolStripMenuItem.Name = "mainFrameについてToolStripMenuItem";
-            this.mainFrameについてToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mainFrameについてToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.mainFrameについてToolStripMenuItem.Text = "MainFrameについて";
             // 
-            // データToolStripMenuItem
+            // toolStripSeparator6
             // 
-            this.データToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.structclassToolStripMenuItem,
-            this.datasetToolStripMenuItem,
-            this.bindToolStripMenuItem,
-            this.linqToolStripMenuItem,
-            this.entityframeworkToolStripMenuItem});
-            this.データToolStripMenuItem.Name = "データToolStripMenuItem";
-            this.データToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.データToolStripMenuItem.Text = "データ";
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(177, 6);
             // 
-            // structclassToolStripMenuItem
+            // cANToolStripMenuItem
             // 
-            this.structclassToolStripMenuItem.Name = "structclassToolStripMenuItem";
-            this.structclassToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.structclassToolStripMenuItem.Text = "struct-class";
+            this.cANToolStripMenuItem.Name = "cANToolStripMenuItem";
+            this.cANToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cANToolStripMenuItem.Text = "CAN";
             // 
-            // datasetToolStripMenuItem
+            // toolStripSeparator7
             // 
-            this.datasetToolStripMenuItem.Name = "datasetToolStripMenuItem";
-            this.datasetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.datasetToolStripMenuItem.Text = "DataSet";
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(177, 6);
             // 
-            // bindToolStripMenuItem
+            // sMTPToolStripMenuItem
             // 
-            this.bindToolStripMenuItem.Name = "bindToolStripMenuItem";
-            this.bindToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.bindToolStripMenuItem.Text = "DataBinding";
+            this.sMTPToolStripMenuItem.Name = "sMTPToolStripMenuItem";
+            this.sMTPToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sMTPToolStripMenuItem.Text = "SMTP";
             // 
-            // linqToolStripMenuItem
+            // pOPToolStripMenuItem
             // 
-            this.linqToolStripMenuItem.Name = "linqToolStripMenuItem";
-            this.linqToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.linqToolStripMenuItem.Text = "Linq";
+            this.pOPToolStripMenuItem.Name = "pOPToolStripMenuItem";
+            this.pOPToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pOPToolStripMenuItem.Text = "POP";
             // 
-            // entityframeworkToolStripMenuItem
+            // iMAPToolStripMenuItem
             // 
-            this.entityframeworkToolStripMenuItem.Name = "entityframeworkToolStripMenuItem";
-            this.entityframeworkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.entityframeworkToolStripMenuItem.Text = "EntityFramework";
+            this.iMAPToolStripMenuItem.Name = "iMAPToolStripMenuItem";
+            this.iMAPToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iMAPToolStripMenuItem.Text = "IMAP";
+            // 
+            // objectToolStripMenuItem
+            // 
+            this.objectToolStripMenuItem.Name = "objectToolStripMenuItem";
+            this.objectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.objectToolStripMenuItem.Text = "Object";
+            // 
+            // datasetToolStripMenuItem1
+            // 
+            this.datasetToolStripMenuItem1.Name = "datasetToolStripMenuItem1";
+            this.datasetToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.datasetToolStripMenuItem1.Text = "Dataset";
+            // 
+            // sqlToolStripMenuItem
+            // 
+            this.sqlToolStripMenuItem.Name = "sqlToolStripMenuItem";
+            this.sqlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sqlToolStripMenuItem.Text = "Sql";
+            // 
+            // entitiesToolStripMenuItem
+            // 
+            this.entitiesToolStripMenuItem.Name = "entitiesToolStripMenuItem";
+            this.entitiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.entitiesToolStripMenuItem.Text = "Entities";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(225, 6);
+            // 
+            // gitToolStripMenuItem
+            // 
+            this.gitToolStripMenuItem.Name = "gitToolStripMenuItem";
+            this.gitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gitToolStripMenuItem.Text = "Githubの使い方";
             // 
             // MainFrame
             // 
@@ -604,6 +699,18 @@ namespace WindowsFormsGithub
         private System.Windows.Forms.ToolStripMenuItem bindToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem linqToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entityframeworkToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cANToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripMenuItem sMTPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pOPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iMAPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem objectToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem datasetToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem sqlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem entitiesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripMenuItem gitToolStripMenuItem;
     }
 }
 

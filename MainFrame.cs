@@ -182,5 +182,10 @@ namespace WindowsFormsGithub
         {
 
         }
+
+        private void 通信ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

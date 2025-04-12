@@ -31,9 +31,9 @@ namespace WindowsFormsGithub
 
                 // 接続文字列を構築
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "localhost";   // 接続先の SQL Server インスタンス
-                builder.UserID = "sa";              // 接続ユーザー名
-                builder.Password = "your_password"; // 接続パスワード
+                builder.DataSource = "MSSqlLocalDB";  //SqlExpress  //"localhost";   // 接続先の SQL Server インスタンス(localdb)\MSSqlLocalDB
+                builder.UserID = "myuser";  //"sa";              // 接続ユーザー名
+                builder.Password = "pass";  // "your_password"; // 接続パスワード
                 builder.InitialCatalog = "master";  // 接続するデータベース(ここは変えないでください)
                 // builder.ConnectTimeout = 60000;  // 接続タイムアウトの秒数(ms) デフォルトは 15 秒
 
